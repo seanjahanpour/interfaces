@@ -1,0 +1,21 @@
+{
+	"name":	"jahan/interfaces",
+	"type": "library",
+	"homepage": "https://github.com/seanjahanpour/interfaces",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sean Jahanpour",
+			"email": "sean@jahanpour.com"
+		}
+	],
+	"description": "",
+	"require": {
+		"php": ">7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jahan\\Interfaces\\":"src/"
+		}
+	}
+}
